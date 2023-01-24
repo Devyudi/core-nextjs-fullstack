@@ -1,5 +1,3 @@
-import './globals.css'
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -8,7 +6,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className={'w-full border border-red-500'}>{children}</body>
     </html>
   )
 }
